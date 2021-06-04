@@ -1,0 +1,155 @@
+[
+    {
+        "id": "1",
+        "title": "Неон голубий ",
+        "image": "neon-blue.jpg",
+        "description": "Розмір см: 2-3, Сумісність: мирні, Кількість: багато",
+        "price": 15.00,
+        "origin": "Parach. innesi",
+        "kind": "Харацинові"
+    },
+    {
+        "id": "2",
+        "title": "Неон червоний",
+        "image": "neon-red.jpg",
+        "description": "Розмір см: 2-3,  Сумісність: мирні, Кількість: багато",
+        "price": 20.00,
+        "origin": "Parach. axelrodi",
+        "kind": "Харацинові"
+    },
+    {
+        "id": "3",
+        "title": "Тернеція червона",
+        "image": "ternetion.jpg",
+        "description": "Розмір см: 2-3,  Сумісність: мирні, Кількість: багато",
+        "price": 30.00,
+        "origin": "Glo-fish",
+        "kind": "Харацинові"
+    },
+    {
+        "id": "4",
+        "title": "Червона шапочка",
+        "image": "red_riding_hood.jpg",
+        "description": "Розмір см: 5-6, Сумісність: мирні, Кількість: мало",
+        "price": 235.00,
+        "origin": "Glo-fish",
+        "kind": "Золоті рибки"
+    },
+    {
+        "id": "5",
+        "title": "Барбус суматранський",
+        "image": "barbus.jpg",
+        "description": "Розмір см: 2-3, Сумісність: мирні, Кількість: багато",
+        "price": 23.00,
+        "origin": "Glofish",
+        "kind": "Карпові"
+    },
+    {
+        "id": "6",
+        "title": "Вуалехвіст червоний",
+        "image": "red_voilevist.jpg",
+        "description": "Розмір см: 2-3, Сумісність: мирні, Кількість: багато",
+        "price": 53.00,
+        "origin": "Carassius",
+        "kind": "Золоті рибки"
+    },
+    {
+        "id": "7",
+        "title": "Аулонокара Строуберрі",
+        "image": "Aulonocara.jpg",
+        "description": "Розмір см: 5-6, Сумісність: агресивні, Кількість: мало",
+        "price": 123.00,
+        "origin": "Aulonocara",
+        "kind": "Харацинові"
+    },
+    {
+        "id": "8",
+        "title": "Рак мандарин",
+        "image": "Cambarellus.jpg",
+        "description": "Розмір см: 4-5, Сумісність: мирні, Кількість: мало",
+        "price": 45.00,
+        "origin": "Procambarus",
+        "kind": "Раки"
+    },
+    {
+        "id": "9",
+        "title": "Тернеція чорна",
+        "image": "black_t.jpg",
+        "description": "Розмір см: 5-6, Сумісність: мирні, Кількість: багато",
+        "price": 45.00,
+        "origin": "Glofish",
+        "kind": "Харацинові"
+    },
+    {
+        "id": "10",
+        "title": "Метиніс",
+        "image": "metynnis.jpg",
+        "description": "Розмір см: 5-6, Сумісність: мирні, Кількість: багато",
+        "price": 45.00,
+        "origin": "Glofish",
+        "kind": "Харацинові"
+    },
+    {
+        "id": "11",
+        "title": "Даніо синій",
+        "image": "danio.jpg",
+        "description": "Розмір см: 3-4, Сумісність: мирні, Кількість: багато",
+        "price": 15.00,
+        "origin": "Glo-fish",
+        "kind": "Карпові"
+    },
+    {
+        "id": "12",
+        "title": "Даніо рожевий",
+        "image": "danio_r.jpg",
+        "description": "Розмір см: 3-4, Сумісність: мирні, Кількість: багато",
+        "price": 20.00,
+        "origin": "Glo-fish",
+        "kind": "Карпові"
+    },
+    {
+        "id": "13",
+        "title": "Даніо репіо",
+        "image": "rep_d.jpg",
+        "description": "Розмір см: 4-5, Сумісність: мирні, Кількість: багато",
+        "price": 10.00,
+        "origin": "Glo-fish",
+        "kind": "Карпові"
+    },
+    {
+        "id": "14",
+        "title": "Мікрорасбора галактика",
+        "image": "microrasbora.jpg",
+        "description": "Розмір см: 2-3, Сумісність: мирні, Кількість: багато",
+        "price": 25.00,
+        "origin": "Glo-fish",
+        "kind": "Карпові"
+    },
+    {
+        "id": "15",
+        "title": "Анциструс",
+        "image": "ants.jpg",
+        "description": "Розмір см: 3-4, Сумісність: мирні, Кількість: багато",
+        "price": 30.00,
+        "origin": "Dolichopterus",
+        "kind": "Сомоподібні"
+    },
+    {
+        "id": "16",
+        "title": "Анциструс золотий",
+        "image": "ants_z.jpg",
+        "description": "Розмір см: 2-3, Сумісність: мирні, Кількість: багато",
+        "price": 35.00,
+        "origin": "Dolichopterus",
+        "kind": "Сомоподібні"
+    },
+    {
+        "id": "17",
+        "title": "Отоцинклюс",
+        "image": "oto.jpg",
+        "description": "Розмір см: 4-5, Сумісність: мирні, Кількість: багато",
+        "price": 45.00,
+        "origin": "Affins",
+        "kind": "Сомоподібні"
+    }
+]
