@@ -1,0 +1,604 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro&display=swap');
+:root{
+--font-color:black;
+--font-family:'Schoolbell', cursive;
+--accent-color: #1A1D74;
+ scroll-behavior: smooth;
+}
+body{
+    max-width: 980px;
+    margin:auto;
+    font-family:'Schoolbell', cursive;
+   }
+#menu.default{
+    width: 980px;
+    margin:auto;
+}
+.headMenu{
+  position: fixed;
+  width: 930px;
+  margin: 0 auto;
+  top:0;
+  z-index: 10;
+}
+#jumbo{
+margin-top: 70px;
+}
+@media screen and (min-width: 320px){
+#jumbo{
+    margin-top: 0;
+    height: 310px;
+}
+.headMenu{
+   width: 300px;
+   position: relative;
+}
+.intro {
+    text-align: center;
+    margin-top: 0px;
+}
+.display-4{
+    font-size: 1.3rem;
+}
+.categoryDrop{
+    display: none;
+    max-width: 200px;
+    height: 270px;
+    position: absolute;
+    top: 425px;
+    right: 0;
+    bottom: 0;
+    left: 150px;
+}
+.categoryDrop a{
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 4px 22px #f2fcfe;
+    border: 1px solid transparent;
+}
+.categoryAll:hover .categoryDrop{
+    display: block;
+    z-index: 1;
+}
+.categoryDrop a:hover{
+    border: 1px solid black;
+}
+.selectFeed{
+    margin-left: 25px;
+}
+.selection{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ width: 200px;
+}
+}
+@media (min-width: 400px){
+main .catagories{
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap:5px;
+ }
+.headMenu{
+   width: 395px;
+   position: relative;
+}
+#jumbo{
+    padding-top: 50px;
+    margin-top: 0;
+    height: 425px;
+}
+.intro {
+    text-align: center;
+    margin-top: 0px;
+}
+.display-4{
+    font-size: 1.3rem;
+}
+.categoryDrop{
+    display: none;
+    max-width: 200px;
+    height: 270px;
+    position: absolute;
+    top: 540px;
+    right: 0;
+    bottom: 0;
+    left: 175px;
+}
+.categoryDrop a{
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 4px 22px #f2fcfe;
+    border: 1px solid transparent;
+}
+.categoryAll:hover .categoryDrop{
+    display: block;
+    z-index: 1;
+}
+.categoryDrop a:hover{
+    border: 1px solid black;
+}
+}
+@media(min-width: 600px){
+    header .nav{
+        display: flex;
+        align-items: center;
+    }
+    main .fish image{
+        width:100%;
+        display:block;
+    }
+    main .product .product-buttons{
+        display: flex;
+        justify-content: space-around;
+    }
+    main #catalog .catalogies{
+        justify-content: center;
+    }
+    .intro {
+        text-align: center;
+        margin-top: 150px;
+    }
+    .display-4{
+        font-size: 2.5rem;
+    }
+    }
+@media (min-width:650px){
+main .catagories{
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.categoryDrop{
+    display: none;
+    max-width: 200px;
+    height: 270px;
+    position: absolute;
+    top: 660px;
+    right: 0;
+    bottom: 0;
+    left: 260px;
+}
+.categoryDrop a{
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 4px 22px #f2fcfe;
+    border: 1px solid transparent;
+}
+.categoryAll:hover .categoryDrop{
+    display: block;
+    z-index: 1;
+}
+.categoryDrop a:hover{
+    border: 1px solid black;
+}
+.headMenu{
+   width: 695px;
+   position: relative;
+}
+#jumbo{
+    margin-top: 0;
+    height: 550px;
+}
+.selectFeed{
+    margin-left: 25px;
+}
+.selection{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ width: 200px;
+ float: left;
+}
+.feedForFish{
+    display: flex;
+    margin-left: 250px;
+}
+.forFooter{
+    position: relative;
+    margin-left: 20px;
+    padding: 10px;
+    width: 550px;
+    height: auto;
+    background: #9dd5fa; 
+    }
+.contactCall{
+        display: flex;
+        justify-content: space-between;
+    }
+.contact{
+        width:500px;
+        display: flex;
+        justify-content: space-between;
+    }
+.contactc{
+        margin-left: 35px;
+        margin-right: 20px;
+        width: 450px;
+    }
+.contactd{
+        color: rgb(8, 38, 56);
+    }
+    .contactd::after{
+        content: "Після надходження коштів на рахунок Продавця, менеджер інтернет-магазину погоджує з Покупцем термін доставки. Для того, щоб оформити замовлення потрібно обрати товар, який Вам потрібно і після цього перейти у Корзину та ввести ім\'я, емеіл, номер телефону та адресу доставки і натиснути Купити. У разі виникнення будь-яких запитань звертайсь на електронну пошту, у соціальні мережі або за номером телефону, який вказаний.";
+        color: rgb(8, 38, 56);
+        display: block;
+        width: 305px;
+        height: 300px;
+        background-color: #9dd5fa;
+        position: absolute;
+        left: 335px;
+        top: 37px;
+        transition-property: top;
+        transition-duration: 0.7s;
+    }
+    .contactd:hover::after{
+        top: -305px;
+    }
+.callSelect{
+    width: 115px;
+    height: 120px;
+}
+.number{
+    text-decoration: none;
+}
+.number:hover{
+    text-decoration: none;
+}
+.numberTel{
+    text-decoration: none;
+}
+.numberTel:hover{
+    text-decoration: none;
+}
+}
+@media (min-width: 980px){
+main .catagories{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+.headMenu{
+    position: fixed;
+    width: 932px;
+}
+#jumbo{
+    margin-top: 70px;
+    height: 550px;
+}
+.intro {
+    max-width: 400px;
+    margin-top: 150px;
+    text-align: center;
+}
+.display-4{
+    font-size: 3.5rem;
+}
+.categoryAll{
+    display: inline-block; 
+    cursor: pointer;
+}
+.categoryDrop{
+    display: none;
+    max-width: 200px;
+    height: 270px;
+    position: absolute;
+    top: 660px;
+    right: 0;
+    bottom: 0;
+    left: 195px;
+}
+.categoryDrop a{
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 4px 22px #f2fcfe;
+    border: 1px solid transparent;
+}
+.categoryAll:hover .categoryDrop{
+    display: block;
+    z-index: 1;
+}
+.categoryDrop a:hover{
+    border: 1px solid black;
+}
+.selectFeed{
+    margin-left: 25px;
+}
+.selection{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ width: 200px;
+ float: left;
+}
+.feedForFish{
+    display: flex;
+    margin-left: 300px;
+}
+.forFooter{
+    position: relative;
+    margin-left: 20px;
+    padding: 10px;
+    width: 550px;
+    height: auto;
+    background: #9dd5fa; 
+    }
+.contactCall{
+    display: flex;
+    justify-content: space-between;
+    }
+.contact{
+    width:700px;
+    display: flex;
+    justify-content: space-between;
+    }
+.contactc{
+    margin-left: 35px;
+    margin-right: 20px;
+    width: 600px;
+    }
+.contactd{
+    color: rgb(8, 38, 56);
+    }
+    .contactd::after{
+        content: "Після надходження коштів на рахунок Продавця, менеджер інтернет-магазину погоджує з Покупцем термін доставки. Для того, щоб оформити замовлення потрібно обрати товар, який Вам потрібно і після цього перейти у Корзину та ввести ім\'я, емеіл, номер телефону та адресу доставки і натиснути Купити. У разі виникнення будь-яких запитань звертайсь на електронну пошту, у соціальні мережі або за номером телефону, який вказаний.";
+        color: rgb(8, 38, 56);
+        display: block;
+        width: 500px;
+        height: 220px;
+        background-color: #9dd5fa;
+        position: absolute;
+        left: 442px;
+        top: 38px;
+        transition-property: top;
+        transition-duration: 0.7s;
+    }
+    .contactd:hover::after{
+        top: -205px;
+    }
+.callSelect{
+        width: 115px;
+        height: 120px;
+    }
+.number{
+        text-decoration: none;
+    }
+.number:hover{
+        text-decoration: none;
+    }
+.numberTel{
+        text-decoration: none;
+    }
+.numberTel:hover{
+        text-decoration: none;
+    }
+}
+.categoryAll{
+    display: inline-block; 
+    cursor: pointer;
+}
+#carouselOffers img {
+    max-height: 450px;
+}
+.card {
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    transition-duration: 0.2s;
+    transition-property: border;
+    display: inline-block; 
+    overflow: hidden;
+    background: #2BC0E4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#arrow{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.fish-haraz{
+    text-decoration: none;
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 4px 22px #f2fcfe;
+    border: 1px solid transparent;
+}
+.fish-haraz:hover{
+    text-decoration: none;
+    border: 1px solid black;
+    transform: scale(1.1);
+}
+.fish-carp{
+    text-decoration: none;
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 4px 22px #f2fcfe;
+    border: 1px solid transparent;
+}
+.fish-carp:hover{
+    text-decoration: none;
+    border: 1px solid black;
+    transform: scale(1.1);
+}
+.fish-gold{
+    text-decoration: none;
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 4px 22px #f2fcfe;
+    border: 1px solid transparent;
+}
+.fish-gold:hover{
+    text-decoration: none;
+    border: 1px solid black;
+    transform: scale(1.1);
+}
+.fish-rak{
+    text-decoration: none;
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 4px 22px #f2fcfe;
+    border: 1px solid transparent;
+}
+.fish-rak:hover{
+    text-decoration: none;
+    border: 1px solid black;
+    transform: scale(1.1);
+}
+.fish-som{
+    text-decoration: none;
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 4px 22px #f2fcfe;
+    border: 1px solid transparent;
+}
+.fish-som:hover{
+    text-decoration: none;
+    border: 1px solid black;
+    transform: scale(1.1);
+}
+.characteristic{
+    padding: 20px;
+    }
+.haraz{
+    margin-right: 4px;
+}
+.carp{
+    margin-right: 4px;
+}
+.gold{
+    margin-right: 4px;
+}
+.rak{
+    margin-right: 4px;
+}
+.som{
+    margin-right: 4px;
+}
+.catalog{
+   background: #f2fcfe;
+}
+.card:hover{
+    border-top-right-radius: 10px;
+    border: 2px solid #333;
+    cursor: pointer;
+}
+.card img{
+   transition: 1s;
+   display: block;
+   border-top-left-radius: 0;
+   border-top-right-radius: 8px;
+}
+.card img:hover{
+    transform: scale(1.2);
+}
+.alert {
+    position: fixed;
+    top: 50px; 
+    width: 50%;
+    left: 25%;
+    z-index: 1051;
+}
+.btn-primary:hover{
+    border-color: transparent;
+}
+.btn{
+    -moz-box-shadow: 3px 3px 0px 0px #327fc2;
+	-webkit-box-shadow: 3px 3px 0px 0px #327fc2;
+	box-shadow: 3px 3px 0px 0px #327fc2;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0d2a47), color-stop(1, #2490fc));
+	background:-moz-linear-gradient(top, #0d2a47 5%, #2490fc 100%);
+	background:-webkit-linear-gradient(top, #0d2a47 5%, #2490fc 100%);
+	background:-o-linear-gradient(top, #0d2a47 5%, #2490fc 100%);
+	background:-ms-linear-gradient(top, #0d2a47 5%, #2490fc 100%);
+	background:linear-gradient(to bottom, #0d2a47 5%, #2490fc 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0d2a47', endColorstr='#2490fc',GradientType=0);
+	background-color:#0d2a47;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #2e6fb0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:7px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d6e9e;
+}
+.selectFeed{
+    background: #f2fcfe;
+}
+#contacts{
+margin-left: 25px;
+}
+.call{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    animation-name: circle;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+@keyframes circle{
+0%{
+    transform: rotate(0deg);
+}
+50%{
+    transform: rotate(360deg);
+    width: 70px;
+    height: 70px;
+}
+100%{
+    transform: rotate(720deg);
+}
+}
+.footerі{
+    background-color: #9dd5fa;
+    width: 100%;
+}
+.icons{
+    padding: 15px;
+    width: 300px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    width: 80px;
+    height: 80px;
+    background-image: url("http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/css-sprite-example.png");
+}
+.icon:hover{
+    cursor: pointer;
+}
+.facebook{
+    background-position: -13px -107px;
+}
+.twitter{
+    background-position: -113px -106px;
+}
+.instagram{
+    background-position: -313px -306px;
+}
+.facebook:hover{
+    background-position: -13px -10px;
+     border-radius: 10px;
+}
+.twitter:hover{
+    background-position: -113px -6px;
+    border-radius: 10px;
+}
+.instagram:hover{
+    background-position: -313px -13px ;
+}
+
+
